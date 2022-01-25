@@ -1,0 +1,20 @@
+rm -rf .git
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/programming-hero-web-course-4/niche-website-client-side-Sharmin16103284.git
+git push -u origin main
+
+
+১) এসাইনমেন্ট এ my submission এ গিয়ে প্রাইভেট ripo এর লিংক এ যান। গিট্ clone এর জন্য লিংক কপি করেন।  
+২) আপনার কম্পিউটার এর প্রজেক্ট রাখার ফোল্ডার এ একটা নতুন ফোল্ডার তৈরি করেন ।
+৩) cmd তে ওই ফোল্ডারের path এ গিয়ে লিখেন: git clone --bare https://github.com/your-private-repo-url.git  (এখানে আপনার প্রাইভেট রিপো url দিন )
+৪) cd https://github.com/your-private-repo-url.git (আপনার প্রাইভেট রিপো ফোল্ডারে যান )
+৫) আপনার git এ প্রজেক্ট টা রাখার জন্য  একটা নতুন ripo create করেন। 
+৬) cmd তে লিখুন: git push --mirror https://github.com/your-new-repo-url.git  (এখানে আপনার তৈরি করা নতুন  রিপো url দিন )
+৭) এবার git remote set-url origin https://github.com/your-new-repo-url.git  (এখানে আপনার তৈরি করা নতুন  রিপো url দিন )
+কাজ শেষ !
